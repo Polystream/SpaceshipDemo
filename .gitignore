@@ -8,6 +8,9 @@ GraphViz/
 [Tt]emp/
 [Uu]nity/
 
+# JetBrains
+.idea/
+
 # Visual Studio cache directory
 .vs/
 
