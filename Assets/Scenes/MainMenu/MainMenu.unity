@@ -1174,6 +1174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 349225089}
+  - component: {fileID: 349225090}
   m_Layer: 0
   m_Name: Scene
   m_TagString: Untagged
@@ -1205,6 +1206,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &349225090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349225088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68adda9532fd8043b281736d2a5fbcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Action MAINMENU_START
+  MessageToSend: MAINMENU_START
 --- !u!1 &356800339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,10 +3658,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1007847414}
   - component: {fileID: 1007847413}
-  - component: {fileID: 1007847412}
   - component: {fileID: 1007847411}
   m_Layer: 0
-  m_Name: EditorOnly
+  m_Name: StartFromHere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3666,23 +3680,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Send MainMenu Start
   messageType: 0
---- !u!114 &1007847412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007847410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5b32278809154e47b5d8375352f6f8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: EditorOnlyLogic
-  DisableOnPlayFromHere: 0
-  ExecutionPath: 1
-  OnExecute:
-  - {fileID: 1007847411}
 --- !u!114 &1007847413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3696,7 +3693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnStart:
-  - {fileID: 1007847412}
+  - {fileID: 1007847411}
 --- !u!4 &1007847414
 Transform:
   m_ObjectHideFlags: 0
@@ -4493,7 +4490,6 @@ MonoBehaviour:
   m_YawDamping: 0
   m_RollDamping: 0
   m_AngularDamping: 0
-  m_HideOffsetInInspector: 0
 --- !u!114 &1231841953
 MonoBehaviour:
   m_ObjectHideFlags: 3
