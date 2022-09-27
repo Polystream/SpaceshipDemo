@@ -3339,10 +3339,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mythical Version
+  m_text: 'Version
+
+    Unity'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b52ccbb8131626140938baa3e65f587e, type: 2}
-  m_sharedMaterial: {fileID: 1732041503960583706, guid: b52ccbb8131626140938baa3e65f587e,
+  m_fontAsset: {fileID: 11400000, guid: 939074eca7ebd194bbf8ff214756ff9b, type: 2}
+  m_sharedMaterial: {fileID: -7315666835730359850, guid: 939074eca7ebd194bbf8ff214756ff9b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3367,8 +3369,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3377,7 +3379,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: -2
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -6744,7 +6746,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 0a01b24d26159bc449295dfdf3b7b6c5,
+      objectReference: {fileID: 11400000, guid: 939074eca7ebd194bbf8ff214756ff9b,
         type: 2}
     - target: {fileID: 8770961961016953290, guid: 7e016af9d0b3c3e459c863e023df5f68,
         type: 3}
@@ -6765,7 +6767,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7883544258556888897, guid: 0a01b24d26159bc449295dfdf3b7b6c5,
+      objectReference: {fileID: -7315666835730359850, guid: 939074eca7ebd194bbf8ff214756ff9b,
         type: 2}
     - target: {fileID: 8770961961016953290, guid: 7e016af9d0b3c3e459c863e023df5f68,
         type: 3}
