@@ -85,6 +85,13 @@ public class SpaceshipOptions : GameOption
         {
             graphicsOption.Apply();
         }
+
+        Debug.LogFormat("GraphicsOption.targetFramerate = {0}", graphicsOption.targetFrameRate);
+        Debug.LogFormat("Application.targetFrameRate = {0}", Application.targetFrameRate);
+
+        Debug.LogFormat("GraphicsOption.vSync = {0}", graphicsOption.vSync);
+        Debug.LogFormat("QualitySettings.vSyncCount = {0}", QualitySettings.vSyncCount);
+
     }
 
     public FPSKeys fpsKeys { get; private set; }
@@ -176,7 +183,7 @@ public class SpaceshipOptions : GameOption
         List<AutoQuality> autoQuality = new List<AutoQuality>();
 
         // It is important these are added in ascending score order
-        autoQuality.Add(new AutoQuality { level = 0, score = 2000 });
+        autoQuality.Add(new AutoQuality { level = 0, score = 4000 });
         autoQuality.Add(new AutoQuality { level = 1, score = 10000 });
         autoQuality.Add(new AutoQuality { level = 2, score = 14000 });
 
